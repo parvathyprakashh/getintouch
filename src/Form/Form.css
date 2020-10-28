@@ -1,0 +1,76 @@
+h2{
+  text-align:center;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+body{background-color:#91928E;}
+.body{
+  height: 100%;
+  margin: auto;
+  width:60%
+}
+ .main{
+  height:50%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+  
+  /* padding: 60px; */
+}
+.name{
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+}
+.name input{
+   color:white;
+  background-color:#333432;
+  width:50%;}
+
+select{
+  color:white;
+  background-color:#333432;
+  height:25px;
+  width:100%;
+}
+.message{
+   display:flex;
+  justify-content:space-between;
+  width:100%;
+}
+.message input{
+   color:white;
+  background-color:#333432;
+  width:100%;}
+textarea{
+  display: flex;
+  align-items: center;
+   color:white;
+  background-color:#333432;
+  width:100%;}
+  .agreement a{
+    color: blanchedalmond;  
+  }
+  .agreement{
+    width: 100%;
+  }
+  .final{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 8%;
+  }
+  .final button{
+    background-color: #31362b;
+    color: #f3ffe7;
+    height: 100%;
+    margin-left: 3%;
+    width: 30%;
+    transition:background-color 0.5s,color 2s, width 2s;
+  }
+  .final button:hover{
+    background-color: #f8e917;
+    color: black;
+    width: 40%;
+  }
